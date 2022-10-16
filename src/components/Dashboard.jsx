@@ -20,7 +20,7 @@ let [count,setcount]=useState(0)
    
     <Stack w="100%"  >
       <NavbarAfterLogin/>
-      <Stack direction="row" spacing="0px" position="relative"  top="80px">
+      <Stack direction="row" spacing="0px" position="relative"  top={["42px","67px","80px"]}>
 <DashSidebar/>
 <Stack position="relative" left={["25%","20%"]}  direction="column" bg="#f0f0f4" minH="100%" spacing="0px" w={["75%","80%"]} >
   <Box  h={["50px","75px","100px"]}  bg="#f0f0f4"  w={["75%","80%"]} zIndex={47} position="fixed" top="80px" >

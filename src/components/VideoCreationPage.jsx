@@ -53,7 +53,7 @@ const VideoCreationPage = () => {
     }
   };
   return (
-    <div>
+    <div className={style.mainbody} >
       <NavbarCreation />
       <div className={style.mainDiv}>
         <div className={style.sidebar}>

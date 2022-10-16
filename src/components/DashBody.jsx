@@ -17,12 +17,12 @@ setcount(0)
  console.log(Currvideo)
   return (
     
-    <Box bg="#f0f0f4" minH="100vh"  padding="20px 10px 20px 10px" h="100%" w="100%" position="relative" top={["0px","25px","59px"]}  >
+    <Box bg="#f0f0f4" minH="100vh"  padding="20px 10px 20px 10px" h="100%" w="100%" position="relative" top={["0px","0px","59px"]}  >
 
 {
   
   <Grid templateColumns={['repeat(3, 1fr)','repeat(3, 1fr)','repeat(4, 1fr)']} gap={[1,3,6]}>
- <DefaultNewVedio height={Currvideo.length==0?"300px":"100%"}></DefaultNewVedio>
+ <DefaultNewVedio ></DefaultNewVedio>
  {Currvideo.length>0&&Currvideo.map((item)=> item ? <AddNewVedio  key={item.id} item={item}  setcount={setcount}></AddNewVedio> :null)}
  
  

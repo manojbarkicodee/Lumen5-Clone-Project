@@ -3,7 +3,8 @@
     /* border: 1px solid red; */
     /* height: 90vh; */
     display: flex;
-
+border: 1px solid red;
+/* height: 100%; */
 }
 
 .sidebar{
@@ -24,6 +25,7 @@
     height: 600px;
     position: sticky;
     top: 80px;
+    z-index: 1000;
 }
 
 .videoArea{
@@ -47,6 +49,7 @@
     align-items: center;
     gap: 10px;
     padding: 0px 10px;
+    background-color: white;
 }
 
 .import{
@@ -107,3 +110,135 @@
     align-items: center;
     gap: 5px;
 }
+
+@media screen and (max-width: 768px) and (min-width:359px) {
+    .sidebar{
+        width: 10%;
+        /* border: 1px solid green; */
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: #7e889a;
+        position: sticky;
+        top: 80px;
+       }
+       .textArea{
+        width: 40%;
+        /* border: 1px solid yellowgreen; */
+        height: 600px;
+        position: sticky;
+        top: 80px;
+    }
+    .textAreainner{
+        width: 90%;
+        margin: auto;
+        height: 750px;
+        border: none;
+        margin-top: 20px;
+        padding: 10px;
+        font-size:80%;
+    }
+    .url>input{
+        font-size: 60%;
+    }
+    .sideHover{
+        font-size: 95%;
+    }
+    .videoArea{
+        width: 50%;
+        /* border: 1px solid palevioletred; */
+        height: 100%;
+        background-color: rgb(193, 192, 192)
+    }
+    .mainbody{
+        border: 1px solid black;
+        height: 1020px;
+    }
+    .mainDiv{
+        height: 940px;
+    }
+  }
+@media screen and (max-width: 360px) and (min-width:100px) {
+    .sidebar{
+        width: 15%;
+        /* border: 1px solid green; */
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: #7e889a;
+        position: sticky;
+        top: 80px;
+       }
+       .textArea{
+        width: 60%;
+        /* border: 1px solid yellowgreen; */
+        height: 600px;
+        position: sticky;
+        top: 80px;
+    }
+    .textAreainner{
+        width: 90%;
+        margin: auto;
+        height: 600px;
+        border: none;
+        margin-top: 20px;
+        padding: 10px;
+        font-size:8px;
+    }
+    .url>input{
+        font-size: 10%;
+        height: 25px;
+    }
+    .url>input+button{
+        font-size: 5px;
+        height: 25px;
+    }
+    .sideHover{
+        font-size: 50%;
+    }
+    .videoArea{
+        width: 100%;
+        /* border: 1px solid palevioletred; */
+        height: 100%;
+        background-color: rgb(193, 192, 192)
+    }
+    .url{
+        width: 100%;
+        height: 70px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5px;
+        padding: 0px 5px;
+    }
+    .mainbody{
+        width: 114.5%;
+        border: 1px solid black;
+        height: 840px;
+    }
+    .mainDiv{
+        height: 760px;
+    }
+    .recordBtn{
+        border: 1px solid #5846f6;
+        padding: 2px 5px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        font-size: 15%;
+    
+    }
+    .timerDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        font-size: 7px;
+    }
+    
+  }
