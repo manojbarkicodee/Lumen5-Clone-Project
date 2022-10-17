@@ -181,7 +181,7 @@ border: 1px solid red;
     .textAreainner{
         width: 90%;
         margin: auto;
-        height: 600px;
+        height: 500px;
         border: none;
         margin-top: 20px;
         padding: 10px;
@@ -215,12 +215,12 @@ border: 1px solid red;
         padding: 0px 5px;
     }
     .mainbody{
-        width: 114.5%;
+        width: 100%;
         border: 1px solid black;
-        height: 840px;
+        height: 740px;
     }
     .mainDiv{
-        height: 760px;
+        height: 658px;
     }
     .recordBtn{
         border: 1px solid #5846f6;

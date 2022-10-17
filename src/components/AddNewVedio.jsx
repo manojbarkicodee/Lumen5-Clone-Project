@@ -28,7 +28,7 @@ const AddNewVedio = ({ title, badge ,setcount,item}) => {
 
   
   return (
-    <Box  boxSizing='border-box' boxShadow='lg' rounded='md' bg='white' fontSize={["10%", "40%", "90%"]}  w={["100%", "100%", "100%"]} minH={["120px", "200px", "260x"]} borderRadius="10px" >
+    <Box  boxSizing='border-box' boxShadow='lg' rounded='md' bg='white' fontSize={["10%", "40%", "90%"]}  w={["100%", "100%", "100%"]} minH={["120px", "200px", "280x"]} borderRadius="10px" >
       <VStack spacing={["8px", "12px", "18px"]} textAlign="left" align='stretch' pt="0px">
         <Box >
           <Box position="relative">
